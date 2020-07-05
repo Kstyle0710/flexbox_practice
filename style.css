@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  padding: 2px 12px;
+}
+
+.navbar .navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar .navbar__menu {
+  display: flex;
+  font-size: 24px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar .navbar__menu li {
+  padding: 8px 30px;
+}
+
+.navbar .navbar__icons {
+  display: flex;
+  flex-direction: column;
+  margin: 5px, 10px;
+  padding: 12px 12px;
+}
